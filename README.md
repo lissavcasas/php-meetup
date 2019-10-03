@@ -11,17 +11,17 @@ Solo debes ingresar →  [**_AQUÍ_**](https://docs.google.com/presentation/d/1r
 
 _Las siguientes herramientas_
 
-* [Oracle Express](https://www.oracle.com/technetwork/es/database/express-edition/overview/index.html) - El gestos de base de datos
+* [Oracle Express 11g](https://www.oracle.com/technetwork/es/database/express-edition/overview/index.html) - El gestos de base de datos
 * [Toadf for Oracle](http://www.toadworld.com/products/toad-for-oracle) - Software de administración de bases de datos 
 * [Oracle PHP Generator](https://www.sqlmaestro.com/products/oracle/phpgenerator/) - Usado para generar PHP Scripts
-* [XAMPP](https://www.apachefriends.org/es/index.html) - 
+* [XAMPP](https://www.apachefriends.org/es/index.html) 
 
 
 ## Galeria
-![sprint planning](v1.jpeg)
-![sprint planning](v2.jpeg)
-![sprint planning](v3.jpeg)
+![sprint planning](v1.jpg)
+![sprint planning](v2.jpg)
+![sprint planning](v3.jpg)
 
 
 ---
-⌨️ con ❤️ por [Melissa](https://github.com/marimeli) 😊
+⌨️ con ❤️ por [Melissa Casas](https://github.com/marimeli) 😊

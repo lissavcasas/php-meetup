@@ -1,6 +1,6 @@
 # Título de la charla
 
-_Cómo crear un CRUD en 10 minutos usando PHP Generator 
+_Cómo crear un CRUD en 10 minutos usando PHP Generator_
 
 ## ¿Cómo acceder a la presentación?
 
@@ -18,9 +18,9 @@ _Las siguientes herramientas_
 
 
 ## Galeria
-![sprint planning](v1.jpg)
-![sprint planning](v2.jpg)
-![sprint planning](v3.jpg)
+![Desktop View](v1.jpg)
+![Mobile View](v2.jpg)
+![Edit view](v3.jpg)
 
 
 ---

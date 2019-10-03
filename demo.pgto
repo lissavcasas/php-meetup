@@ -1,0 +1,241 @@
+<Project version="18.3.0.7" edition="pro" localizationFileName="C:\Program Files (x86)\SQL Maestro Group\Oracle PHP Generator Professional\lang.es.php" phpDriver="0" outputPath="C:\xampp\htdocs\ps2" copySystemFiles="true" generateModifiedDataOnly="true" outputFilesExtension="php" colorSchemeName="facebook">
+  <ConnectionOptions host="" port="1521" login="DEMO" password="_/WU]ZFA" database="127.0.0.1:1521/xe" client_encoding="" is_windows_auth="false" connect_mode="0">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ConnectionOptions>
+  <ScriptConnectionOptions host="" port="1521" login="DEMO" password="_/WU]ZFA" database="127.0.0.1:1521/xe" client_encoding="" is_windows_auth="false" connect_mode="0">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ScriptConnectionOptions>
+  <DataSources>
+    <DataSource name="DEMO.USERS"/>
+  </DataSources>
+  <Presentation disableMagicQuotesRuntime="false" showEnvironmentVariables="false" showExecutedQueries="false" showPHPErrorsAndWarnings="false">
+    <Pages>
+      <Page type="table" tableName="DEMO.USERS" numberByDataSource="0" fileName="LISTA DE ASISTENTES" caption="LISTA DE ASISTENTES" shortCaption="LISTA DE ASISTENTES" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" deleteSelectedAbilityMode="3" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="1" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="USER_ID" caption="Id" showColumnFilter="false" canSetNull="true" readOnly="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="FIRST_NAME" caption="Nombre" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="text" maxLength="75"/>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="LAST_NAME" caption="Apellido" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="text" maxLength="75"/>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="EMAIL" caption="Correo" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="text" maxLength="75"/>
+            <EditProperties type="textBox" maxLength="0"/>
+            <Validators>
+              <EmailClientValidatorInfo enabled="true"/>
+            </Validators>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="USERNAME" caption="Usuario" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="text" maxLength="75"/>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="USER_POSITION" caption="Cargo" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="text" maxLength="75"/>
+            <EditProperties type="textBox" maxLength="100"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="USER_PHONE" caption="Telefono" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number"/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+            <Validators>
+              <NumberClientValidatorInfo enabled="true"/>
+            </Validators>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="USER_CELL_PHONE" caption="Celular" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number"/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+            <Validators>
+              <NumberClientValidatorInfo enabled="true"/>
+            </Validators>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="USER_PHOTO" caption="Foto" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="externalImage"/>
+            <EditProperties type="imageUploadToFolder" acceptableFileTypes="image/*" directoryToUpload="BIG_IMAG" generateRandomFileName="false" fileNameTemplate="%original_file_name%" replaceFilesIfExists="true" thumbnailResizeType="1" resizeWidth="0" resizeHeight="100" fieldNameToSaveThumbnailPath="USER_PHOTO" generateRandomThumbnailFileName="false" directoryToUploadThumbnailTemplate="SMALL_IMAG" thumbnailFileNameTemplate="small_%original_file_name%"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL" visible="false"/>
+            <Column fieldName="USERNAME" visible="false"/>
+            <Column fieldName="USER_POSITION" visible="false"/>
+            <Column fieldName="USER_PHONE" visible="false"/>
+            <Column fieldName="USER_CELL_PHONE" visible="false"/>
+            <Column fieldName="USER_PHOTO"/>
+          </List>
+          <View>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </View>
+          <Edit>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </Print>
+          <Export>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </Export>
+          <Compare>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="USER_ID"/>
+            <Column fieldName="FIRST_NAME"/>
+            <Column fieldName="LAST_NAME"/>
+            <Column fieldName="EMAIL"/>
+            <Column fieldName="USERNAME"/>
+            <Column fieldName="USER_POSITION"/>
+            <Column fieldName="USER_PHONE"/>
+            <Column fieldName="USER_CELL_PHONE"/>
+            <Column fieldName="USER_PHOTO"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+        <EventHandlers>
+          <OnGetCustomFormLayout enabled="true">
+$layout -&gt; setMode(FormLayoutMode:: VERTICAL);
+
+$dataGroup = $layout -&gt; addGroup('Información Personal', 12);
+
+$dataGroup -&gt; addRow()
+  -&gt; addCol($columns['USER_ID'], 4)
+  -&gt; addCol($columns['FIRST_NAME'], 4)
+  -&gt; addCol($columns['LAST_NAME'], 4);
+  
+  $dataGroup -&gt; addRow()
+  -&gt; addCol($columns['USERNAME'], 6)
+  -&gt; addCol($columns['USER_POSITION'], 6);
+
+  
+$dataGroup = $layout -&gt; addGroup('Datos de contacto', 12);
+
+$dataGroup -&gt; addRow()
+  -&gt; addCol($columns['EMAIL'], 4)
+  -&gt; addCol($columns['USER_PHONE'], 4)
+  -&gt; addCol($columns['USER_CELL_PHONE'], 4);
+
+$dataGroup = $layout -&gt; addGroup('Imágenes Adjuntas', 12);
+
+$dataGroup -&gt; addRow()
+  -&gt; addCol($columns['USER_PHOTO'], 6);          </OnGetCustomFormLayout>
+        </EventHandlers>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+    </Pages>
+    <UserAuthorization/>
+    <UserGrants enableGuestAccess="false">
+      <UserPageGrants/>
+    </UserGrants>
+    <Header/>
+    <Footer/>
+    <PHPOptions/>
+    <Groups>
+      <Group caption="No group"/>
+    </Groups>
+    <outgoingMailSettings mailer="0" fromEmail="" fromName=""/>
+  </Presentation>
+  <UserCSS/>
+  <PdfUserStyles/>
+  <PrintUserStyles/>
+  <UserJS/>
+  <ExcludedPaths/>
+  <DefaultPageProperties recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" deleteSelectedAbilityMode="3" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="1" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false"/>
+  <DefaultDataFormats numberAfterDecimal="4" DecimalSeparator="." ThousandSeparator="," DateTimeFormat="Y-m-d H:i:s" DateFormat="Y-m-d" firstDayOfWeek="0"/>
+</Project>

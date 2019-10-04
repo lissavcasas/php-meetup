@@ -20,7 +20,7 @@ _Las siguientes herramientas_
 ## Galeria
 ![Desktop View](v1.jpg)
 ![Mobile View](v2.jpg)
-![Edit view](v3.jpg)
+![Edit view](v3.png)
 
 
 ---
